@@ -582,10 +582,10 @@
             <p>We'd love your input on improving the FEATURES.md specification!</p>
             
             <div class="contact-info">
-                <a href="https://signal.me/#eu/pierce.403" class="contact-item">
+                <div class="contact-item">
                     <span class="contact-icon">💬</span>
                     <span><strong>Signal:</strong> pierce.403</span>
-                </a>
+                </div>
                 <a href="https://github.com/pierce403/features.md" class="contact-item">
                     <span class="contact-icon">🐙</span>
                     <span><strong>GitHub:</strong> Open an issue or PR</span>
@@ -603,7 +603,7 @@
 
     <script>
         function copyCode() {
-            const code = document.querySelector('.code-block pre code').innerText;
+            const code = document.querySelector('.code-block pre code').textContent;
             navigator.clipboard.writeText(code).then(() => {
                 const btn = document.querySelector('.copy-btn');
                 btn.textContent = 'Copied!';
