@@ -1,0 +1,3 @@
+# Directives for AI crawlers and LLM data use
+User-agent: *
+Allow: /
