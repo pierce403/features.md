@@ -1,0 +1,26 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FEATURES.md Open Graph preview</title>
+  <desc id="desc">Preview image for FEATURES.md, a format for documenting project features for humans and AI coding agents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#a371f7" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0a0f14" flood-opacity="0.6" />
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="80" y="120" width="1040" height="390" rx="24" fill="#0f1620" stroke="#30363d" stroke-width="2" filter="url(#shadow)" />
+  <text x="120" y="250" fill="url(#accent)" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700">FEATURES.md</text>
+  <text x="120" y="320" fill="#8b949e" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="500">Document project features for humans and AI coding agents.</text>
+  <g transform="translate(120 380)" fill="#c9d1d9" font-family="'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="500" letter-spacing="0.3px">
+    <text y="0">• Clear, shareable project snapshots</text>
+    <text y="50">• Ready-to-use format for PRs and repos</text>
+    <text y="100">• Built for collaboration between devs and AI</text>
+  </g>
+</svg>
