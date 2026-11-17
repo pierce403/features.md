@@ -72,3 +72,10 @@ We'd love your input on improving the FEATURES.md specification!
 ---
 
 *Inspired by [AGENTS.md](https://github.com/openai/agents.md) — making agentic programming more effective.*
+
+## License
+
+Original project code and documentation are licensed under the
+[Apache License 2.0](LICENSE). Third-party dependencies, source excerpts,
+assets, and other third-party material retain their respective licenses and
+copyright notices; this grant does not relicense that material.
